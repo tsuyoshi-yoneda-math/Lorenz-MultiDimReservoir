@@ -9,5 +9,4 @@ https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2024.150644
 
 Feng et al. (2025) report a non-standardized MAE ≈ 1.19 for the Lorenz-63 system at t = 10 (1000 steps), computed as the mean error over the entire prediction horizon. When converted into the standardized scale typically used for Lorenz-63 (σ ≈ 10–12 for each variable), this corresponds to a standardized MAE of approximately 0.10–0.12.
 
-Again, our model achieves standardized MAE of 0.014, evaluated across many independent test initial conditions.
-Therefore, our approach dramatically surpasses the standardized equivalent of Feng et al.’s performance.
+However, their training dataset consists of only 6,000 samples, whereas ours contains 600,000, so this difference should naturally be taken into account.　Even so, under a straightforward comparison, our model clearly outperforms theirs.
